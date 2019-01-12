@@ -1,0 +1,15 @@
+Welcome! This instruction explains how to add new algorithms of decoding/encoding to this app
+1. You should create package with name of algorithm
+2. Created package should contain at least two classes and one GUI Form like in RC4 package.
+   Also you can add your own classes to improve algorithm.
+   
+   Common structure of package :
+   <alrorithmName> package
+            (MainClass) <algorihmName> java class extends CryptoAlgorithm
+            (FrameClass) <algorithmNameFrame> java class extends CrytoFrame
+            <algorithmNameForm>
+                    <GUI Form>
+                    (FormClass) <algorithmNameForm> java class extends CryptoForm
+                    
+ 3.MainClass defines encode/decode methods, FrameClass defines how Form communicates with MainClass, FormClass defines how user can input data
+ 4.To add algorithm to MainForm ComboBox, edit Recources class on createFrameMap method and CRYPTOALGORITHMS array as in examples.
