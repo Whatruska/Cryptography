@@ -8,7 +8,7 @@ import java.util.*;
 
 public class Resources {
 
-    public static final String link ="";
+    public static final String link ="https://gist.github.com/Whatruska/86945421b4192cc07f4441decd01b78a";
 
     public static final String FIRST_DESC = "Welcome! This page is explaining how this app works.\n" +
             "All algorithms contains three blocks.\nFirst block includes two text fields : \n" +
